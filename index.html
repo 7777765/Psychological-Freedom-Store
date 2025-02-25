@@ -7,7 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    # إعدادات الموقع الأساسية
+title: "متجر التحرر النفسي"
+description: "بيع الكتب الرقمية حول الصحة النفسية، مثل التغلب على الاكتئاب والوحدة"
+baseurl: "" # اتركه فارغًا إذا كنت تستخدم GitHub Pages
+url: "https://yourusername.github.io" # استبدل yourusername باسم المستخدم في GitHub
+
+# إعدادات Jekyll الأساسية
+theme: minima  # يمكنك تغيير الثيم لاحقًا إذا أردت
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sass-converter
+
+# إعدادات Sass (لملفات SCSS)
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# إعدادات صفحات GitHub
+github:
+  is_project_page: false
+
+# إعدادات التصفح والصفحات
+paginate: 5
+paginate_path: "/page:num/"
+
+# استثناء بعض الملفات من البناء
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# إعدادات القوائم والتنقل
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# روابط السوشيال ميديا (اختياري)
+social:
+  twitter: "your_twitter_handle"
+  facebook: "your_facebook_page"
+  instagram: "your_instagram_handle"
         <h1>مرحبًا بكم في متجر الملفات الرقمية</h1>
     </header>
     <section>
