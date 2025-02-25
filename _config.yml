@@ -40,3 +40,22 @@ defaults:
       path: ""
     values:
       layout: "default"
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر التحرر النفسي</title>
+</head>
+<body>
+    <h1>مرحبًا بك في متجر التحرر النفسي!</h1>
+    <p>هنا يمكنك العثور على كتب تساعدك في التغلب على الاكتئاب والوحدة.</p>
+</body>
+</html>
+---
+layout: default
+title: متجر التحرر النفسي
+---
+
+# مرحبًا بك في متجر التحرر النفسي!
+هنا يمكنك العثور على كتب تساعدك في التغلب على الاكتئاب والوحدة.
