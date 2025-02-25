@@ -1,0 +1,42 @@
+# إعدادات الموقع الأساسية
+title: "متجر التحرر النفسي"
+description: "متجر رقمي يتيح لك كتبًا حول الصحة النفسية والتغلب على الاكتئاب والوحدة."
+baseurl: "" # اتركه فارغًا إذا كنت تستخدم النطاق الرئيسي للمستودع
+url: "https://YourUsername.github.io/Psychological-Freedom-Store" # استبدل YourUsername باسم المستخدم الخاص بك في GitHub
+
+# إعدادات المؤلف
+author:
+  name: "متجر التحرر النفسي"
+  email: "your-email@example.com"
+
+# إعدادات Jekyll
+theme: minima # يمكنك تغيير القالب لاحقًا إذا أردت
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# إعدادات Sass/SCSS
+sass:
+  sass_dir: "assets/css"
+  style: compressed
+
+# إعدادات القائمة الرئيسية
+nav:
+  - title: "الرئيسية"
+    url: "/"
+  - title: "الكتب"
+    url: "/books"
+  - title: "اتصل بنا"
+    url: "/contact"
+
+# إعدادات GitHub Pages
+github:
+  is_project_page: false
+
+# إعدادات الصفحة الرئيسية
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
