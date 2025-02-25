@@ -39,7 +39,7 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      
 <!DOCTYPE html>
 <html lang="ar">
 <head>
