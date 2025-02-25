@@ -29,7 +29,6 @@ nav:
     url: "/books"
   - title: "اتصل بنا"
     url: "/contact"
-
 # إعدادات GitHub Pages
 github:
   is_project_page: false
