@@ -1,29 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجر التحرر النفسي</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img src="logo.png" alt="شعار المتجر" class="logo">
-        <h1>متجر التحرر النفسي</h1>
-        <nav>
-            <ul>
-                <li><a href="files.html">📂 الملفات</a></li>
-                <li><a href="books.html">📚 الكتب</a></li>
-                <li><a href="images.html">🖼️ الصور</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>مرحبًا بك في متجر التحرر النفسي</h2>
-        <p>هنا يمكنك شراء ملفات وكتب وصور تساعدك على التحرر النفسي.</p>
-    </main>
-    <footer>
-        <p>جميع الحقوق محفوظة &copy; 2025 متجر التحرر النفسي</p>
-    </footer>
-</body>
-</html>
